@@ -188,7 +188,7 @@ function App() {
               {events.events.slice(0, 9).map((event) => (
                 <div key={event.id} className='event-card'>
                   <h3>{event.title}</h3>
-                  <div className='event=details'>
+                  <div className='event-details'>
                     <span className='event-category'>{event.categories[0].title}</span>
                     <span className='event-date'>
                       {new Date(event.geometry[0].date).toLocaleDateString()
